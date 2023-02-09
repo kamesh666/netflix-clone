@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAzXmBR8td7op7inNbGuQAZXUj1MgvgqFU",
-  authDomain: "netflix-clone-b6d3d.firebaseapp.com",
-  projectId: "netflix-clone-b6d3d",
-  storageBucket: "netflix-clone-b6d3d.appspot.com",
-  messagingSenderId: "717836937339",
-  appId: "1:717836937339:web:74842e8c9c7a6506389ade",
-  measurementId: "G-Y85VMVVJVL",
+  apiKey: process.env.FIREBASE_APIKEY,
+  authDomain: process.env.FIREBASE_AUTHDOMAIN,
+  projectId: process.env.FIREBASE_PROJECTID,
+  storageBucket: process.env.FIREBASE_STROAGEBUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGEINGSENTERID,
+  appId: process.env.FIREBASE_APPID,
+  measurementId: process.env.FIREBASE_MEASUREMENTID,
 };
 
 const app = initializeApp(firebaseConfig);
