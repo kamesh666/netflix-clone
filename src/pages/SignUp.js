@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import netflix from "../assets/netflix.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
+import DocumentTitle from "../components/DocumentTitle";
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { user, signUp } = UserAuth();
   const navigate = useNavigate();
+
+  DocumentTitle("Netflix");
 
   const handleSubmit = async (e) => {
     e.preventDefault();

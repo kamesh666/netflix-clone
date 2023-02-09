@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import netflix from "../assets/netflix.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
+import DocumentTitle from "../components/DocumentTitle";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -10,9 +11,11 @@ const Login = () => {
   const { user, LogIn } = UserAuth();
   const navigate = useNavigate();
 
+  DocumentTitle("Netflix - login");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError('')
+    setError("");
     try {
       await LogIn(email, password);
       navigate("/");
