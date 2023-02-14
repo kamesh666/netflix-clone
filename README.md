@@ -49,7 +49,7 @@ As it is frontend & Backend clone I have added data can be changed easily or add
 To run this project, install it locally using npm or yarn:
 
 ```
-  $ npm install
+$ npm install
 ```
 
 start the project
