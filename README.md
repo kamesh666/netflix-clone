@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netflix-clone
 
 Stack - Reactjs & Firebase
@@ -65,6 +66,8 @@ $ npm start
 
 <img src='./src/example/signup.png' width='300' height='150'/>
 <img src='./src/example/login.png' width='300' height='150' />
+=======
+>>>>>>> cbe575b82b8d28cef899c12361a2e13ad88c7bec
 
 <br>
 
