@@ -1,41 +1,72 @@
-# Getting Started with Create React App
+# Netflix-clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stack - Reactjs & Firebase
 
-## Available Scripts
+Netflix Movie clone Website using Reactjs and Firebase
 
-In the project directory, you can run:
+website - netflix-clone-b6d3d.web.app/
 
-### `npm start`
+## Table of Contents
+- [Netflix-clone](#netflix-clone)
+  - [Table of Contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Libraries Used](#libraries-used)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Examples](#examples)
+    - [Home Page](#home-page)
+    - [Authentication Page:](#authentication-page)
+    - [Account page :](#account-page-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## General info
+Netflix Clone - movie Application Clone using Reactjs. In this Netflix App clone I have cloned maximum pages Home page, Account page, My shows etc...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+As it is frontend & Backend clone I have added data can be changed easily or added easily.
 
-### `npm test`
+## Libraries Used
+|Library Name | Description|
+| ----------- | ---------- | 
+| Reactjs | Frontend Framework|
+| react-router-dom | navigation library|
+| tailwindcss | utility based css |
+| react-redux | state management |
+| axios | Promise based HTTP client for the browser |
+| Firebase | backend Framework |
+| tmdb | movie-api |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+|Tool Name | Description |
+| ------- | -------------|
+| Reactjs | Reactjs is a development environment tool|
+|npm | Package Manager tool|
+| Firebase | app development platform |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
+To run this project, install it locally using npm or yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+  $ npm install
+```
+start the project
+```
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Examples
+### Home Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src='./src/example/home.png' width='300' height='150' />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Authentication Page:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src='./src/example/signup.png' width='300' height='150'/>
+<img src='./src/example/login.png' width='300' height='150' />
 
+<br>
+
+### Account page :
+<img src='./src/example/account.png' alt='basket image' width='300' height='150'/>
