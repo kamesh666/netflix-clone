@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Netflix-clone
 
 Stack - Reactjs & Firebase
@@ -17,6 +17,7 @@ website - netflix-clone-b6d3d.web.app/
   - [Examples](#examples)
     - [Home Page](#home-page)
     - [Authentication Page:](#authentication-page)
+- [](#)
     - [Account page :](#account-page-)
 
 ## General info
